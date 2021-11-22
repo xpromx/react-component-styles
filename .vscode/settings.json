@@ -1,0 +1,18 @@
+{
+  "spellright.language": ["en"],
+  "spellright.documentTypes": ["markdown"],
+  "editor.formatOnSave": true,
+  "[javascript]": {
+    "editor.formatOnSave": false,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    }
+  },
+  "[typescript]": {
+    "editor.formatOnSave": false,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    }
+  },
+  "css.lint.unknownAtRules": "ignore"
+}

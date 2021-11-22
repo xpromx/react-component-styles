@@ -1,0 +1,12 @@
+{
+  // See http://go.microsoft.com/fwlink/?LinkId=827846
+  // for the documentation about the extensions.json format
+  "recommendations": [
+    // eslint integration
+    "dbaeumer.vscode-eslint",
+    // prettier integration
+    "esbenp.prettier-vscode",
+    // tailwind autocompletion
+    "bradlc.vscode-tailwindcss"
+  ]
+}

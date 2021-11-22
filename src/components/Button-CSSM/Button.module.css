@@ -1,0 +1,123 @@
+/** variables: styles/global.css **/
+.button {
+  padding: var(--spacing-2) var(--spacing-3);
+  border-radius: 3px;
+}
+
+/* Button Size */
+.button--size--sm {
+  font-size: var(--fontSize-sm);
+}
+
+.button--size--md {
+  font-size: var(--fontSize-md);
+}
+
+.button--size--lg {
+  font-size: var(--fontSize-lg);
+}
+
+/* Button Disabled */
+.button--disabled {
+  opacity: 50%;
+  cursor: not-allowed;
+}
+
+/* Button Primary */
+.button--primary {
+  color: var(--color-white);
+  border: 1px var(--color-primary) solid;
+  background-color: var(--color-primary);
+}
+
+.button--primary:hover {
+  background-color: var(--color-primary-dark);
+}
+
+.button--primary--disabled:hover {
+  background-color: var(--color-primary);
+}
+
+.button--primary--outline {
+  background: transparent;
+  color: var(--color-primary);
+  border: 1px var(--color-primary) solid;
+}
+
+.button--primary--outline:hover {
+  background: transparent;
+  color: var(--color-primary-dark);
+  border: 1px var(--color-primary-dark) solid;
+}
+
+.button--primary--outline--disabled:hover {
+  background: transparent;
+  color: var(--color-primary);
+  border: 1px var(--color-primary) solid;
+}
+
+/* Button Secondary */
+.button--secondary {
+  color: var(--color-white);
+  border: 1px var(--color-secondary) solid;
+  background-color: var(--color-secondary);
+}
+
+.button--secondary:hover {
+  background-color: var(--color-secondary-dark);
+}
+
+.button--secondary--disabled:hover {
+  background-color: var(--color-secondary);
+}
+
+.button--secondary--outline {
+  background: transparent;
+  color: var(--color-secondary);
+  border: 1px var(--color-secondary) solid;
+}
+
+.button--secondary--outline:hover {
+  background: transparent;
+  color: var(--color-secondary-dark);
+  border: 1px var(--color-secondary-dark) solid;
+}
+
+.button--secondary--outline--disabled:hover {
+  background: transparent;
+  color: var(--color-secondary);
+  border: 1px var(--color-secondary) solid;
+}
+
+/* Button Default */
+.button--default {
+  color: var(--color-white);
+  border: 1px var(--color-gray) solid;
+  background-color: var(--color-gray);
+}
+
+.button--default:hover {
+  background-color: var(--color-gray-dark);
+}
+
+.button--default--disabled:hover {
+  background-color: var(--color-gray);
+}
+
+.button--default--outline {
+  background: transparent;
+  color: var(--color-gray);
+  border: 1px var(--color-gray) solid;
+}
+
+.button--default--outline:hover {
+  background: transparent;
+  color: var(--color-gray-dark);
+  border: 1px var(--color-gray-dark) solid;
+}
+
+.button--default--outline--disabled:hover {
+  background: transparent;
+  color: var(--color-gray);
+  border: 1px var(--color-gray) solid;
+}

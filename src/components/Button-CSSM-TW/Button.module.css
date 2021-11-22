@@ -1,0 +1,96 @@
+/** variables: styles/global.css **/
+.button {
+  @apply px-3 py-2 rounded;
+}
+
+/* Button Size */
+.button--size--sm {
+  @apply text-sm;
+}
+
+.button--size--md {
+  @apply text-base;
+}
+
+.button--size--lg {
+  @apply text-lg;
+}
+
+/* Button Disabled */
+.button--disabled {
+  @apply opacity-50 cursor-not-allowed;
+}
+
+/* Button Primary */
+.button--primary {
+  @apply text-white border border-green-600 bg-green-600;
+}
+
+.button--primary:hover {
+  @apply bg-green-800;
+}
+
+.button--primary--disabled:hover {
+  @apply bg-green-600;
+}
+
+.button--primary--outline {
+  @apply bg-transparent text-green-600 border border-green-600;
+}
+
+.button--primary--outline:hover {
+  @apply bg-transparent text-green-800 border border-green-800;
+}
+
+.button--primary--outline--disabled:hover {
+  @apply bg-transparent text-green-600 border border-green-600;
+}
+
+/* Button Secondary */
+.button--secondary {
+  @apply text-white border border-blue-600 bg-blue-600;
+}
+
+.button--secondary:hover {
+  @apply bg-blue-800;
+}
+
+.button--secondary--disabled:hover {
+  @apply bg-blue-600;
+}
+
+.button--secondary--outline {
+  @apply bg-transparent text-blue-600 border border-blue-600;
+}
+
+.button--secondary--outline:hover {
+  @apply bg-transparent text-blue-800 border border-blue-800;
+}
+
+.button--secondary--outline--disabled:hover {
+  @apply bg-transparent text-blue-600 border border-blue-600;
+}
+/* Button Default */
+.button--default {
+  @apply text-white border border-gray-600 bg-gray-600;
+}
+
+.button--default:hover {
+  @apply bg-gray-800;
+}
+
+.button--default--disabled:hover {
+  @apply bg-gray-600;
+}
+
+.button--default--outline {
+  @apply bg-transparent text-gray-600 border border-gray-600;
+}
+
+.button--default--outline:hover {
+  @apply bg-transparent text-gray-800 border border-gray-800;
+}
+
+.button--default--outline--disabled:hover {
+  @apply bg-transparent text-gray-600 border border-gray-600;
+}

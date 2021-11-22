@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --spacing-2: 6px;
+  --spacing-3: 8px;
+  --fontSize-sm: 14px;
+  --fontSize-md: 16px;
+  --fontSize-lg: 18px;
+  --color-white: rgb(255, 255, 255);
+  --color-primary: rgba(5, 150, 105);
+  --color-primary-dark: rgb(6, 95, 70);
+  --color-secondary: rgb(37, 99, 235);
+  --color-secondary-dark: rgb(30, 64, 175);
+  --color-gray: rgb(75, 85, 99);
+  --color-gray-dark: rgb(31, 41, 55);
+}
