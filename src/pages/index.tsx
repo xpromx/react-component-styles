@@ -43,6 +43,11 @@ const Page: NextPage = () => {
               <a className="text-green-700 hover:underline">Vanilla-Extract</a>
             </Link>
           </li>
+          <li className="mt-4">
+            <Link href="/vanilla-extract-blog">
+              <a className="text-green-700 hover:underline">Vanilla-Extract Blog</a>
+            </Link>
+          </li>
         </ul>
       </div>
     </div>

@@ -1,5 +1,5 @@
 import { style, styleVariants } from "@vanilla-extract/css";
-import { vars } from "./theme.css";
+import { vars } from "../../styles/theme.css";
 
 export const base = style({
   padding: `${vars.spacing[3]} ${vars.spacing[2]}`,
