@@ -9,6 +9,7 @@ Trying different ways to style components in React to decide the easiest approac
 - CSS Modules + Tailwind CSS
 - Styled-Components
 - Chakra-UI
+- Vanilla-Extract
 
 ## Goals
 
