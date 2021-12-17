@@ -38,6 +38,11 @@ const Page: NextPage = () => {
               <a className="text-green-700 hover:underline">CSS Modules + Tailwind CSS</a>
             </Link>
           </li>
+          <li className="mt-4">
+            <Link href="/vanilla-extract">
+              <a className="text-green-700 hover:underline">Vanilla-Extract</a>
+            </Link>
+          </li>
         </ul>
       </div>
     </div>
