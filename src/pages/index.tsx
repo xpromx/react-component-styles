@@ -48,6 +48,11 @@ const Page: NextPage = () => {
               <a className="text-green-700 hover:underline">Vanilla-Extract Blog</a>
             </Link>
           </li>
+          <li className="mt-4">
+            <Link href="/css-modules-blog">
+              <a className="text-green-700 hover:underline">CSS Modules Blog</a>
+            </Link>
+          </li>
         </ul>
       </div>
     </div>

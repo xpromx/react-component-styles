@@ -8,6 +8,8 @@
   --fontSize-sm: 14px;
   --fontSize-md: 16px;
   --fontSize-lg: 18px;
+  --fontSize-xl: 24px;
+  --fontSize-2xl: 32px;
   --color-white: rgb(255, 255, 255);
   --color-primary: rgba(5, 150, 105);
   --color-primary-dark: rgb(6, 95, 70);
@@ -15,4 +17,5 @@
   --color-secondary-dark: rgb(30, 64, 175);
   --color-gray: rgb(75, 85, 99);
   --color-gray-dark: rgb(31, 41, 55);
+  --box-shadow: 0 4px 4px rgba(192, 189, 189, 0.25);
 }
